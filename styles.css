@@ -1,0 +1,74 @@
+* {
+    font-family: "Book Antiqua", serif;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-items: center;
+}
+
+body {
+    background-color: rgb(200, 153, 193);
+    color: rgb(212, 238, 255);
+}
+
+h1 {
+    font-size: 70px;
+    margin: 0;
+    margin-top: 50px;
+}
+
+h2 {
+     font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+h3 {
+     font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+}
+
+img {
+    width: 500px;
+    border-radius: 18px;
+}
+
+.sbb { 
+    color: rgb(3, 28, 96)
+}
+
+.sbp {
+    color:rgb(238, 117, 141)
+}
+
+.sbo {
+    color:rgb(255, 180, 88)
+}
+
+.fancy {
+    font-weight: 400;
+    -webkit-text-stroke: 3px rgb(3, 28, 96);
+}
+
+.fancy span {
+    font-family:'Impact', sans-serif;
+}
+
+
+footer {
+  position: relative; 
+  width: 100%;
+  min-height: 60px;
+  clear: both;
+}
+
+footer button {
+  position: absolute !important;
+  bottom: 10px !important;
+  left: 0px !important;
+  margin: 0 !important;
+  transform: none !important;
+}
